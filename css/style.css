@@ -59,45 +59,49 @@ html,body{
 .site-header{
     background-color: #1A3129;
 }
-.topbar {
-  background: var(--dark-green);
-  color: var(--white);
-  font-size: 0.9rem;
-}
-.topbar-inner {
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  padding: .35rem 0;
-}
-.topbar .promo {
-  font-size: .85rem;
-}
-.top-links a {
-  color: var(--white);
-  margin-left: 1rem;
-  text-decoration:none;
-  opacity: .9;
-}
-.header-inner {
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  padding: 1rem 0;
-}
 .promo{
     display: flex;
+    align-items: center;
     justify-content: space-between;
     background-color: #346454;
-    width: 100%;
     border-radius: 10px;
 }
+.together{
+    display: flex;
+}
 
+/* Header */
+header {
+  background-color: #173728;
+  color: white;
+}
+
+.topbar {
+  background-color: #10271b;
+  font-size: 0.9rem;
+  padding: 0.3rem 0;
+  text-align: center;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+.tennisball {
+    margin-top: 15px;
+    height: 20px;
+    width: 20px;
+}
 /* Brand / logo */
 .brand {
   display:flex;
   align-items:center;
   gap: .5rem;
+}
+.together{
+    display: flex;
 }
 .logo {
   width:36px;
